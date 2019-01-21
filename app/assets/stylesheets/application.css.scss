@@ -14,6 +14,69 @@
  *= require_self
  */
  
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+@import "font-awesome";
+
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu', sans-serif; font-weight:700;
+}
+
+h6 {
+  font-family: 'Ubuntu', sans-serif; font-weight:400;
+  font-size: 1.1em;
+}
+
+.navbar {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.navbar-brand {
+  font-weight:700;
+}
+
+.headline {
+  margin-top: 20vh;
+}
+
+.login {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.email {
+  background-color: #D9D8D8;
+  padding:15px;
+  width:300px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.email-button {
+  margin-left:auto; 
+  margin-right:0;
+}
+
+.right {
+  background-color: #41D7F5;
+  height:100vh;
+}
+
+.row-height {
+  height:33vh;
+}
+
+.benefit {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.icons {
+  margin-top: 40px;
 }
