@@ -20,16 +20,12 @@
 @import "font-awesome";
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: 'Ubuntu', sans-serif; font-weight:700;
+  font-family: 'Roboto', sans-serif; font-weight:700;
 }
 
 h6 {
-  font-family: 'Ubuntu', sans-serif; font-weight:400;
-  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif; font-weight:400;
+  font-size: 1.3em;
 }
 
 .navbar {
@@ -43,6 +39,7 @@ h6 {
 
 .headline {
   margin-top: 20vh;
+  margin-right: 10vh;
 }
 
 .login {
@@ -64,7 +61,7 @@ h6 {
 }
 
 .right {
-  background-color: #41D7F5;
+  background-color: #2B47FF;
   height:100vh;
 }
 
@@ -79,4 +76,14 @@ h6 {
 
 .icons {
   margin-top: 40px;
+}
+
+.EASE {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.social {
+  position: absolute;
+  bottom: 4%;
 }
