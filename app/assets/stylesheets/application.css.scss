@@ -27,7 +27,7 @@ h6 {
   min-height: 100vh;
 }
 
-.navbar {
+#logos {
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -87,4 +87,22 @@ h6 {
 .social {
   position: absolute;
   bottom: 4%;
+}
+
+
+/* Login Page */
+
+#navbar-login {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.looking-for {
+  padding-left: 15vw;
+  padding-top: 5vh;
+}
+
+.projects {
+  padding-right: 15vw;
+  padding-top: 5vh;
 }
