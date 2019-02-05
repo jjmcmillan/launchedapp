@@ -2,9 +2,15 @@ class PagesController < ApplicationController
     def home
     end
     
-    def login
+    def opportunities
     end
     
     def profiles
+    end
+    
+    def user
+    end
+    
+    def upload
     end
 end
