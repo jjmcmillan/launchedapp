@@ -18,8 +18,13 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif; font-weight:700;
 }
 
-h6 {
+h5 {
   font-family: 'Roboto', sans-serif; font-weight:400;
+  font-size: 1.2em;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.0em;
 }
 
@@ -80,7 +85,7 @@ h6 {
 }
 
 .EASE {
-  width: 500px;
+  width: 600px;
   margin-top: 50px;
 }
 
@@ -97,7 +102,7 @@ h6 {
   padding-right: 15vw;
 }
 
-.looking-for {
+.navbar-align {
   padding-left: 15vw;
   padding-top: 5vh;
 }
@@ -134,4 +139,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content {
+  min-height: calc(100vh - 136px);
 }

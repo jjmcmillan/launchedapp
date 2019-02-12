@@ -22,32 +22,84 @@
   </div>
 </nav>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12 row-user">
-      <div class="vertical">
-        <div class="card bg-light" style="width: 30vw;">
-          <div class="card-body">
-            <h5 class="card-title text-center">Profile</h5>
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Name</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Make my profile visible.</label>
-              </div>
-              <div class="text-center">
+<div class="content">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 navbar-align">
+        <h5>Account Settings</h5>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-md-3 navbar-align">
+        <h6 style="font-weight: 700">Profile</h6>
+        <h6>Login</h6>
+      </div>
+      
+      <div class="col-md-9" style="padding-top:5vh">
+        
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <form style="font-weight:700">
+                <div class="form-group">
+                  <label for="InputEmail1">Name</label>
+                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Jack McMillan">
+                </div>
+                <div class="form-group">
+                  <label for="InputRole1">Role</label>
+                  <input type="password" class="form-control" id="InputRole1" placeholder="UI Designer">
+                </div>
+                <div class="form-group">
+                  <label for="InputSkill">Skills</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">1)</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="HTML">
+                  </div>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">2)</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="CSS">
+                  </div>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">3)</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="GitHub">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleBio1">Bio</label>
+                  <textarea class="form-control" id="exampleBio1" rows="3">I would love to join a startup because I want to be a play a role in building the foundations of a company. I have experience with designing user interfaces.</textarea>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Make my profile visible</label>
+                </div>
                 <a href="#" class="btn btn-primary">Update</a>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+<div class="footer text-center">
+  <div class="footer-above">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Copyright © Edinburgh Innovations 2019. All Rights Reserved</p>
       </div>
     </div>
   </div>
