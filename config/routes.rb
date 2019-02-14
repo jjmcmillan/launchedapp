@@ -4,4 +4,5 @@ Rails.application.routes.draw do
     get 'profiles', to: 'pages#profiles'
     get 'user', to: 'pages#user'
     get 'upload', to: 'pages#upload'
+    get 'login', to: 'pages#login'
 end

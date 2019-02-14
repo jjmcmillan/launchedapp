@@ -13,4 +13,8 @@ class PagesController < ApplicationController
     
     def upload
     end
+    
+    def login
+    end
+    
 end
